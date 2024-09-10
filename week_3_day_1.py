@@ -75,15 +75,16 @@ number = 59
 
 print(f"Once upon a time, there was a {age} old coder named {name}.")
 print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
+print(f"Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}’s secret power?")
 
-# date_of_birth = 2021
-# number2 = 123
-# number3 = 123.456
-# number4 = 123.33
-# number5 = 4555
+date_of_birth = 2021
+number2 = 123
+number3 = 123.456
+number4 = 123.33
+number5 = 4555
 
-# print("one and a " + str(number2) + " and a " + str(number3) + " and a " + str(number4) + " and a " + str(number5) + " and born on " + str(date_of_birth))
-# print(f"the date of birth is {date_of_birth}, one and a {number2} and a {number3} and a {number3} and a {number4} and a {number5}")
+print("one and a " + str(number2) + " and a " + str(number3) + " and a " + str(number4) + " and a " + str(number5) + " and born on " + str(date_of_birth))
+print(f"the date of birth is {date_of_birth}, one and a {number2} and a {number3} and a {number3} and a {number4} and a {number5}")
 
 ##########################################################################################
 # The names you use when creating these labels need to follow a few rules:
