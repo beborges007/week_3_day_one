@@ -103,23 +103,6 @@ print(f"the date of birth is {date_of_birth}, one and a {number2} and a {number3
 # integer
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-############################################################################################
-
-
 # # **Working with** **numbers** **bold text**
 # We'll learn about the following topics:
 # 1. Types of Numbers in Python
@@ -135,20 +118,33 @@ print(f"the date of birth is {date_of_birth}, one and a {number2} and a {number3
 
 ##########################################################################################
 # #addition
+print(2+1)
 # #multiplication
+print(2*2)
 # #division
+print(6/2)
 # #modulo
+print(7%4)
 # #powers
+print(2**3)
 # #get the max and min of a number
+print(f"the max of 2 and 3: {max(2,3)}")
+print(f"The min of 2 and 3: {min(2,3)}")
 # #round a number
+print(f"rounded num: {round(3.2)}")
 # # absolute value
+print(f"absolute value {abs(-15)}")
 # # order of operations
+print(f"10-9+10*7 is = ",7*10+9-10)
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print(floor(2.95))
 # #ceil method
+print(ceil(6.0001))
 # #sqrt method
+print(sqrt(16))
 
 
 
@@ -168,14 +164,21 @@ print(f"the date of birth is {date_of_birth}, one and a {number2} and a {number3
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+name = input("What is your name?: ")
 # # basic math calculator
 # #ask the user for 2 numbers
+num_one = float(input("Input your first number: "))
+num_two = float(input("Input your second number: "))
 # # print out a statement where you:
 # # add them together
+print("Result: ",num_one+num_two)
 # #multiply
 # # find the max number
+print("Here's the max of both numbers: ",max(num_one, num_two))
 # # find the remainder of the numbers
+print(f"The remainder of {num_one} and {num_two} is: ",(num_one%num_two))
 # #round one number
+print("Rounded: ",round(num_one))
 
 
 
