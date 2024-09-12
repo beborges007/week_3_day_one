@@ -194,9 +194,17 @@ print("Rounded: ",round(num_one))
 # print("I love {celebrity}")
 # # On to codehs.com
 
+###########################################################################################
 
+print("------------------- \n Helllo User\n-------------------------")
 
+num1 = float(input("First Number: "))
+num2 = float(input("Second Number: "))
 
-
-
-
+print("Subtracted: ",(num1-num2))
+print("Divided: ",(num1-num2))
+print("Min number: ",(min(num1,num2)))
+print("Absolute value First Number: ",abs(num1))
+print("Floor of First Number: ",floor(num1))
+print("Ceiling of Second Number: ",ceil(num2))
+print("Square Root of Second Number: ",sqrt(num2))
